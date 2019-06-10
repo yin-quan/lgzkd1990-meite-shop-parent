@@ -10,6 +10,7 @@
         <module name="meite-shop-service-api-weixin" />
         <module name="meite-shop-basics-spring-cloud-zuul" />
         <module name="meite-shop-basics-spring-cloud-eureka" />
+        <module name="meite-shop-basics-springcloud-zuul" />
         <module name="meite-shop-entity" />
         <module name="meite-shop-portal" />
         <module name="meite-shop-service-api-member" />
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="meite-shop-basics-spring-cloud-eureka" options="-parameters" />
       <module name="meite-shop-basics-spring-cloud-zuul" options="-parameters" />
+      <module name="meite-shop-basics-springcloud-zuul" options="-parameters" />
       <module name="meite-shop-entity" options="-parameters" />
       <module name="meite-shop-portal" options="-parameters" />
       <module name="meite-shop-service-api-member" options="-parameters" />
