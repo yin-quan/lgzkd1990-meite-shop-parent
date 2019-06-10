@@ -6,7 +6,7 @@
 
     <groupId>com.mayikt</groupId>
     <artifactId>meite-shop-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-RELEASE</version>
     <modules>
         <module>meite-shop-basics</module>
         <module>meite-shop-common</module>
@@ -101,5 +101,19 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>mayikt</id>
+            <url>http://192.168.48.136:8081/repository/mayikt-release</url>
+        </repository>
     </repositories>
+    <!--注意限定版本一定为RELEASE,因为上传的对应仓库的存储类型为RELEASE -->
+    <!--指定仓库地址 -->
+    <distributionManagement>
+        <repository>
+            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
+            <id>mayikt</id>
+            <url>http://192.168.48.136:8081/repository/mayikt-release/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
