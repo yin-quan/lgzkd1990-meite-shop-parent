@@ -17,6 +17,13 @@
             <artifactId>meite-shop-service-api-member</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
+        <!-- 会员调用微信接口 ????? -->
+        <dependency>
+            <groupId>com.mayikt</groupId>
+            <artifactId>meite-shop-service-api-weixin</artifactId>
+            <version>1.0-RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 </project>

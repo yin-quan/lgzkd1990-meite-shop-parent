@@ -15,18 +15,18 @@
         <module>meite-shop-service-api-member</module>
         <module>meite-shop-service-api-weixin</module>
     </modules>
-    <!-- 导入entity-->
+
     <dependencies>
-        <dependency>
-            <artifactId>meite-shop-entity</artifactId>
-            <groupId>com.mayikt</groupId>
-            <version>1.0-RELEASE</version>
-        </dependency>
         <!-- swagger-spring-boot -->
         <dependency>
             <groupId>com.spring4all</groupId>
             <artifactId>swagger-spring-boot-starter</artifactId>
             <version>1.7.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mayikt</groupId>
+            <artifactId>meite-shop-common-core</artifactId>
+            <version>1.0-RELEASE</version>
         </dependency>
     </dependencies>
 
